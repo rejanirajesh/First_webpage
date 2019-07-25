@@ -1,0 +1,33 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Libre Baskerville', serif;
+}
+#main{
+	width:100%;
+}
+nav{
+	height:60px;
+	width:100%;
+	line-height:30px;
+	background-color:#eef3ff;
+	opacity:0.6;
+}
+nav ul{
+	float:right;
+	margin-right:30px;
+}
+nav  li{
+	list-style-type:none;
+	display:inline-block;
+	margin-right:30px;
+	padding-top:20px;
+}
+nav li a:hover{
+	color:#2a62ff;
+}
+	
+nav li a{
+	color:black;
+	text-decoration:none;
+}
