@@ -31,3 +31,20 @@ nav li a{
 	color:black;
 	text-decoration:none;
 }
+input{
+	padding-left:20px;
+}
+input[type="text"] { 
+	width: 200px;
+}
+.container{
+	border-radius: 6px;
+	padding: 20px;
+}
+@media screen and (max-width: 800px) {
+  nav li a {
+    float: none;
+    width: 100%;
+  }
+}
+
